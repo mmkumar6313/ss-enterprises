@@ -1,0 +1,155 @@
+body{
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+        135deg,
+        #1e3c72 0%,
+        #2a5298 50%,
+        #6a11cb 100%
+    );
+
+    background-attachment:
+    fixed;
+}
+
+.card{
+
+    border:none;
+
+    border-radius:25px;
+
+    background:
+    rgba(255,255,255,.12);
+
+    backdrop-filter:
+    blur(20px);
+
+    -webkit-backdrop-filter:
+    blur(20px);
+
+    border:
+    1px solid
+    rgba(255,255,255,.2);
+
+    color:#fff;
+}
+
+.form-label,
+h2,
+h4,
+h5,
+h6{
+    color:#fff;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #0dcefd;
+    color: #1e3c72;
+}
+
+.form-control{
+    height:50px;
+    border-radius:12px;
+}
+
+.btn{
+    height:50px;
+    border-radius:12px;
+    font-weight:600;
+}
+
+.poster-design{
+    background:
+    linear-gradient(
+        135deg,
+        #ff9800,
+        #ff5722
+    );
+
+    border-radius:25px;
+
+    padding:40px 20px;
+
+    text-align:center;
+
+    color:#fff;
+
+    margin-top:20px;
+
+    box-shadow:
+    0 10px 30px rgba(0,0,0,.2);
+}
+
+.festival-badge{
+    background:
+    rgba(255,255,255,.2);
+
+    display:inline-block;
+
+    padding:8px 20px;
+
+    border-radius:50px;
+
+    margin-bottom:20px;
+
+    font-size:14px;
+
+    font-weight:600;
+}
+
+.company-name{
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:20px;
+}
+
+.poster-message{
+    font-size:34px;
+    font-weight:700;
+    line-height:1.4;
+}
+
+.poster-footer{
+    margin-top:30px;
+    font-size:18px;
+}
+
+.customer-card{
+    border:none;
+    border-radius:20px;
+
+    padding:18px;
+
+    color:#fff;
+
+    background:
+    linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+
+    box-shadow:
+    0 8px 20px
+    rgba(0,0,0,.15);
+}
+
+.customer-card h6{
+    color:#fff;
+}
+
+.customer-info-name{
+    font-size:20px;
+    font-weight:700;
+}
+
+.customer-info-text{
+    opacity:.95;
+    margin-top:5px;
+}
